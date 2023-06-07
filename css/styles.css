@@ -360,11 +360,16 @@ margin-bottom: 30px;
 }
 /* portfolio main */
 /* filter */
+.project-section {
+    margin-bottom: 17px;
+    padding: 0;
+}
 .filter-list {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 50px;
+    margin-top: 171px;
     
 }
 .filter-list > .filter-item {
@@ -389,6 +394,9 @@ margin-bottom: 30px;
     flex-basis: calc((100% - 2 - var(--card-set-gap)) / 3 );
     margin-left: var(--card-set-gap);
     margin-top: var(--card-set-gap);
+}
+.projects-item:nth-child(-n + 3) {
+    margin-top: 0;
 }
 .projects-item:nth-child(3n + 1) {
     margin-left: 0;
